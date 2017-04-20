@@ -8,8 +8,11 @@
         Title="MainWindow" Height="400" Width="525" Background="{x:Null}">
 
     <Grid>
-        
-    </Grid>
+        <TextBook Name="Билет" FrontSize =" 18" HorizontalAligment ="Center">
+            <ListView Name="listView">
+                <ListView.ItemTemplate >
+                    <DataTemplate >
+                        
 </Window>
 
     
