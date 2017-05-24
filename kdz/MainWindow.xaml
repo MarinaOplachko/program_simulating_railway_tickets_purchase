@@ -5,14 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:kdz"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="525" Background="{x:Null}">
+        Title="MainWindow" Height="400" Width="525" >
 
     <Grid>
-        <TextBook Name="Билет" FrontSize =" 18" HorizontalAligment ="Center">
-            <ListView Name="listView">
-                <ListView.ItemTemplate >
-                    <DataTemplate >
-                        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition />
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition />
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+           
+        <Button Content="Здравствуйте!" Grid.Column=" 1" Grid.Row="1"/>
+        
+        
+        
+
+
+    </Grid>
 </Window>
+    
 
     
